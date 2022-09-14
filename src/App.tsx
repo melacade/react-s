@@ -1,26 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {useAppDispatch, useAppSelector} from "./hooks";
+import {decrement, increment} from "./store/counter/counterSlice";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const count = useAppSelector((state) => state.counter.value)
+    const dispatch = useAppDispatch()
+    const click = ()=> dispatch(increment())
+    const de = () => dispatch(decrement());
+    return (
+        <div className="App">
+            <div>{count}</div>
+            <button onClick={click}>加</button>
+            <button onClick={de}>减</button>
+        </div>
+    );
 }
 
 export default App;
