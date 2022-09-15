@@ -9,7 +9,6 @@ export default function ThreeD() {
     loaderConfig.sdkPath = './jssdk';
     loaderConfig.path = './models/viewToken.json';
     let onSDKLoadSucceeded = (viewMetaData:any)=>{
-        debugger;
         let view = document.getElementById('3dView')
         // @ts-ignore
         let config = new Glodon.Bimface.Application.WebApplication3DConfig();
@@ -20,7 +19,6 @@ export default function ThreeD() {
         let app = new Glodon.Bimface.Application.WebApplication3D(config);
         if (!viewer) {
             viewer = app.getViewer();
-
             window.onresize = ()=> {
                 viewer.resize(document.documentElement.clientWidth, document.documentElement.clientHeight - 40)
             }
