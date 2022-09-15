@@ -1,19 +1,22 @@
-import React, {useState} from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import {useAppDispatch, useAppSelector} from "./hooks";
 import {decrement, increment} from "./store/counter/counterSlice";
+import {Button} from "antd";
+
 
 function App() {
     const count = useAppSelector((state) => state.counter.value)
     const dispatch = useAppDispatch()
     const click = ()=> dispatch(increment())
     const de = () => dispatch(decrement());
+
     return (
         <div className="App">
             <div>{count}</div>
-            <button onClick={click}>加</button>
-            <button onClick={de}>减</button>
+            <Button onClick={click}>加</Button>
+            <Button type={"primary"} onClick={de}>减</Button>
+            <Button><a href="/test"> 第三方组件使用 </a></Button>
         </div>
     );
 }
