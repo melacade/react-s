@@ -2,7 +2,7 @@
   "name": "react-m",
   "version": "0.1.0",
   "private": true,
-  "main": "main.ts",
+  "main": "main.js",
   "homepage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
@@ -31,7 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron-start": "electron ."
+    "electron-start": "electron .",
+    "package": "electron-packager ./ --windows --out ./target"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +55,7 @@
   "devDependencies": {
     "@babel/runtime": "^7.19.0",
     "electron": "^20.1.4",
+    "electron-packager": "^16.0.0",
     "redux-logger": "^3.0.6"
   }
 }
