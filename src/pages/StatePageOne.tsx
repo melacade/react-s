@@ -9,12 +9,11 @@ export function StatePageOne() {
         width: window.innerWidth, height: window.innerHeight, left: 0, top: 0
     };
     useEffect(()=>{
-        var options = {
+        let options = {
             container: 'luckysheet' //luckysheet为容器id
-        }
-
+        };
         // @ts-ignore
-        window.luckysheet.create(options)
+        window.luckysheet.create(options);
     })
     return (
         <div>

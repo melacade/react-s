@@ -2,6 +2,8 @@
   "name": "react-m",
   "version": "0.1.0",
   "private": true,
+  "main": "main.ts",
+  "homepage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,6 +16,7 @@
     "@types/react-redux": "^7.1.24",
     "antd": "^4.23.1",
     "eslint": "^8.22.0",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -27,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-start": "electron ."
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +53,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "^7.19.0",
+    "electron": "^20.1.4",
     "redux-logger": "^3.0.6"
   }
 }

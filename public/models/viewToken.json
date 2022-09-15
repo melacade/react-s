@@ -1,0 +1,30 @@
+{
+  "workerType": "rvt-translate",
+  "databagId": "f59e14129a8dd342eee5a606342dc862",
+  "modelId": 1929783806543968,
+  "jsSDKVersion": "Bimface@3.6.95",
+  "modelType": "singleModel",
+  "subRenders": [
+    {
+      "isSupportModelTree": false,
+      "isSupportFamilyTypeList": false,
+      "renderVersion": "1.0",
+      "jsSDKVersion": "Drawing@1.6.95",
+      "isSupportComponentProperty": false,
+      "isSupportMiniMap": false,
+      "renderType": "drawingView"
+    }
+  ],
+  "isSupportModelTree": true,
+  "isSupportWalk": true,
+  "isSupportFamilyTypeList": false,
+  "renderVersion": "3.0",
+  "isSupportRoomArea": true,
+  "isSupportMaterialProperty": true,
+  "isSupportDrawing": true,
+  "name": "BIMFACE\u793a\u4f8b\u6a21\u578b.rvt",
+  "databagVersion": "3.7",
+  "isSupportComponentProperty": true,
+  "isSupportMiniMap": true,
+  "renderType": "bimView"
+}

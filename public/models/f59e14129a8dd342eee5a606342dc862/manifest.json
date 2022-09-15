@@ -1,0 +1,52 @@
+{
+  "Metadata": {
+    "ProjectName": "BIMFACE示例模型",
+    "FileName": "10a6297b23034f339051b8d6e69cdedb.rvt",
+    "FileType": "rvt",
+    "Timestamp": "2020-08-12 17:55:18",
+    "Content": {
+      "Type": "3D",
+      "Version": "3.7"
+    },
+    "ID": "f59e14129a8dd342eee5a606342dc862",
+    "Unit": "mm"
+  },
+  "Features": {
+    "HasComponentProperty": true,
+    "HasMaterialProperty": true,
+    "HasMiniMap": true,
+    "HasComponentStructure": true,
+    "HasFileList": false,
+    "HasRoom": true,
+    "HasArea": false,
+    "HasDrawing": false,
+    "HasMEPSystem": false,
+    "HasGroup": false,
+    "HasAssemble": false,
+    "HasLinkRelation": false,
+    "HasFamilyTypeList": false,
+    "HasSplitDrawing": false,
+    "HasLayout": false
+  },
+  "Features_ext": {
+    "HasWalkthrough": false
+  },
+  "Version": "1.0",
+  "Thumbnail": [
+    {
+      "Width": 256,
+      "Height": 256,
+      "Path": "thumbnail/256.png"
+    },
+    {
+      "Width": 512,
+      "Height": 512,
+      "Path": "thumbnail/512.png"
+    },
+    {
+      "Width": 96,
+      "Height": 96,
+      "Path": "thumbnail/96.png"
+    }
+  ]
+}

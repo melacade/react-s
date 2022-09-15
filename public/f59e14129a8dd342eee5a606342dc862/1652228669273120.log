@@ -1,0 +1,249 @@
+2020-08-12 17:54:46,756 INFO  - -------------Starting Job 1652228669273120 Logger-------------
+2020-08-12 17:54:46,760 INFO  - Notice sended, jobId = 1652228669273120, status = download, code = null, message = null, usage = null
+2020-08-12 17:54:47,208 INFO  - File downloaded, size = -1, cost = 407
+2020-08-12 17:54:47,208 INFO  - Notice sended, jobId = 1652228669273120, status = execute, code = null, message = null, usage = null
+2020-08-12 17:54:47,208 INFO  - worker command = [python -u C:\Job\worker\rvt-translate\20200812-4c8bf6\framework/worker.py --workflow rvt2md/rvt2viz.json --input "C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt" --config "C:\Job\wd\1652228669273120\input\config.json" --output "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862"], job id = 1652228669273120
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) [MSC v.1900 64 bit (AMD64)]
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: sys.version_info(major=3, minor=6, micro=1, releaselevel='final', serial=0)
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: C:\Job\wd\1652228669273120\input\config.json
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: Namespace(config=<__main__.CustomConfig object at 0x0000004ECD05D208>, configPath='C:\\Job\\wd\\1652228669273120\\input\\config.json', input='C:\\Job\\wd\\1652228669273120\\input\\10a6297b23034f339051b8d6e69cdedb.rvt', links=None, maxLevel=None, maxTime=None, model='', output='C:\\Job\\wd\\1652228669273120\\f59e14129a8dd342eee5a606342dc862', rule=None, workflow='rvt2md/rvt2viz.json')
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: {}
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: >> WORKFLOW: rvt2md/rvt2viz.json
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\7zip
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\fileInfo
+2020-08-12 17:54:47,380 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\md2viz
+2020-08-12 17:54:47,411 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\proto2db
+2020-08-12 17:54:47,426 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\rvt2md
+2020-08-12 17:54:47,473 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap
+2020-08-12 17:54:47,473 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\regularize
+2020-08-12 17:54:47,489 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\dwg2mdv
+2020-08-12 17:54:47,489 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\dwg2pdf
+2020-08-12 17:54:47,489 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\bim2md
+2020-08-12 17:54:47,489 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\localpack
+2020-08-12 17:54:47,505 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\misc
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: >> TASK START: 7zip 2020-08-12 17:54:47.520710
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: C:\Job\wd\1652228669273120\input\config.json
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: >> TASK END: 7zip 0:00:00
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: >> TASK START: rvtFileInfo 2020-08-12 17:54:47.520710
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: The input information form C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt
+2020-08-12 17:54:47,520 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\fileInfo\bin\cfb.exe dump "C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt" BasicFileInfo -r > "C:\Job\wd\1652228669273120\input\revitInfo\revitInfo.txt"
+2020-08-12 17:54:47,536 INFO  - WORKER OUTPUT: Revit Build is : Autodesk Revit 2017
+2020-08-12 17:54:47,536 INFO  - WORKER OUTPUT: >> TASK END: rvtFileInfo 0:00:00.015633
+2020-08-12 17:54:47,536 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:54:47,536 INFO  - WORKER OUTPUT: >> TASK START: rvt2md 2020-08-12 17:54:47.536343
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: Python rvt worker starts.
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: Rvt file version is: 2017
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: SOFTWARE\Autodesk\Revit\2020\REVIT-05:0804 not found
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: Installed revit version ['2016', '2017', '2018', '2019', '2020']
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: -----key not in self.customConfig--------
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: {}
+2020-08-12 17:54:47,551 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\rvt2md\bin/Revit/RevitWorker2017.exe --input "C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt" --output "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862" --config "C:\Job\wd\1652228669273120\input\config.json"
+2020-08-12 17:54:47,645 INFO  - WORKER OUTPUT: {setTimeout: 7200000}
+2020-08-12 17:54:58,505 INFO  - WORKER OUTPUT: CSharp rvt translate starts.
+2020-08-12 17:54:58,797 INFO  - WORKER OUTPUT: Configs:
+2020-08-12 17:54:58,823 INFO  - WORKER OUTPUT: InputFilePath: C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt
+2020-08-12 17:54:58,824 INFO  - WORKER OUTPUT: OutputFolderPath: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862
+2020-08-12 17:54:58,826 INFO  - WORKER OUTPUT: Texture: False
+2020-08-12 17:54:58,827 INFO  - WORKER OUTPUT: Export Dwg: False
+2020-08-12 17:54:58,829 INFO  - WORKER OUTPUT: Integrate Drawings: False
+2020-08-12 17:54:58,830 INFO  - WORKER OUTPUT: Export Dwg Instance(CAD Link): False
+2020-08-12 17:54:58,832 INFO  - WORKER OUTPUT: Modify the Rvt File Mode: False
+2020-08-12 17:54:58,833 INFO  - WORKER OUTPUT: Export Building Index: False
+2020-08-12 17:54:58,835 INFO  - WORKER OUTPUT: Export All View Images: False
+2020-08-12 17:54:58,836 INFO  - WORKER OUTPUT: Export Hidden Objects: False
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: Export SectionBox: True
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: Export Schedules: False
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: Export SystemType In UserData: True
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: Export Visibility By VoxelAlgo: True
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: ConfigFilePath: C:\Job\wd\1652228669273120\input\config.json
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: Display Level: FINE
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: Set Level Rule: False
+2020-08-12 17:54:58,837 INFO  - WORKER OUTPUT: 
+2020-08-12 17:55:15,362 INFO  - WORKER OUTPUT: Preparing execution environment
+2020-08-12 17:55:15,382 INFO  - WORKER OUTPUT: Start processing C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt
+2020-08-12 17:55:15,387 INFO  - WORKER OUTPUT: The language is Chinese_Simplified
+2020-08-12 17:55:15,388 INFO  - WORKER OUTPUT: The unit scale is mm
+2020-08-12 17:55:18,260 INFO  - WORKER OUTPUT: Document C:\Job\wd\1652228669273120\input\10a6297b23034f339051b8d6e69cdedb.rvt opened
+2020-08-12 17:55:18,436 INFO  - WORKER OUTPUT: Can't find user defined view: {3D}
+2020-08-12 17:55:18,457 INFO  - WORKER OUTPUT: DefaultView: {ÈýÎ¬}
+2020-08-12 17:55:25,412 INFO  - WORKER OUTPUT: File Path: Glodon.Bimface.Common.Manifest.BagFolder
+2020-08-12 17:55:25,427 INFO  - WORKER OUTPUT: Task Started: ExportMdSceneTask
+2020-08-12 17:55:25,427 INFO  - WORKER OUTPUT: Saving...C:/Job/wd/1652228669273120/f59e14129a8dd342eee5a606342dc862/resource/model
+2020-08-12 17:55:25,427 INFO  - WORKER OUTPUT: HELLO GLODON MODEL DRIVE!
+2020-08-12 17:55:26,068 INFO  - WORKER OUTPUT: Writing level...
+2020-08-12 17:55:26,083 INFO  - WORKER OUTPUT: Writing area...
+2020-08-12 17:55:27,865 INFO  - WORKER OUTPUT: Writing project...
+2020-08-12 17:55:27,896 INFO  - WORKER OUTPUT: Writing view...
+2020-08-12 17:55:27,912 INFO  - WORKER OUTPUT: Writing mepsystem...
+2020-08-12 17:55:27,927 INFO  - WORKER OUTPUT: Writing railings...
+2020-08-12 17:55:27,990 INFO  - WORKER OUTPUT: Writing ModelSetsTree...
+2020-08-12 17:55:28,005 INFO  - WORKER OUTPUT: Writing NestedComponents...
+2020-08-12 17:55:28,302 INFO  - WORKER OUTPUT: Export category visibility....
+2020-08-12 17:55:28,521 INFO  - WORKER OUTPUT: Exporting elements...
+2020-08-12 17:55:30,568 INFO  - WORKER OUTPUT: .....collect rvt links...
+2020-08-12 17:55:30,584 INFO  - WORKER OUTPUT: finializing...
+2020-08-12 17:55:30,599 INFO  - WORKER OUTPUT: save userdata.gz....
+2020-08-12 17:55:30,599 INFO  - WORKER OUTPUT: Translate
+2020-08-12 17:55:30,599 INFO  - WORKER OUTPUT: ShapeMatch
+2020-08-12 17:55:30,615 INFO  - WORKER OUTPUT: SpatialSubdivision
+2020-08-12 17:55:30,615 INFO  - WORKER OUTPUT: Scene LoD...
+2020-08-12 17:55:30,630 INFO  - WORKER OUTPUT: Scene f59e14129a8dd342eee5a606342dc862
+2020-08-12 17:55:30,630 INFO  - WORKER OUTPUT: PackageMeshes
+2020-08-12 17:55:30,630 INFO  - WORKER OUTPUT: Symbol in main scene: 130
+2020-08-12 17:55:30,646 INFO  - WORKER OUTPUT: Symbol Package: main-> 1 sub->  1
+2020-08-12 17:55:30,709 INFO  - WORKER OUTPUT: Task Completed: ExportMdSceneTask
+2020-08-12 17:55:30,724 INFO  - WORKER OUTPUT: Task Started: ExportImageForViewsTask
+2020-08-12 17:55:31,693 INFO  - WORKER OUTPUT: We don't export dwg from rvt file.
+2020-08-12 17:55:32,099 INFO  - WORKER OUTPUT: {progress: 25, message: "ExportImageForViewsTask"}
+2020-08-12 17:55:32,099 INFO  - WORKER OUTPUT: {progress: 25, message: "ExportImageForViewsTask"}
+2020-08-12 17:55:32,099 INFO  - WORKER OUTPUT: Task Completed: ExportImageForViewsTask
+2020-08-12 17:55:32,099 INFO  - WORKER OUTPUT: Task Started: ExportMaterialTask
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: {progress: 50, message: "ExportMaterialTask"}
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: {progress: 50, message: "ExportMaterialTask"}
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: Task Completed: ExportMaterialTask
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: Task Started: GenerateManifestTask
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: {progress: 75, message: "GenerateManifestTask"}
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: {progress: 75, message: "GenerateManifestTask"}
+2020-08-12 17:55:32,302 INFO  - WORKER OUTPUT: Task Completed: GenerateManifestTask
+2020-08-12 17:55:32,318 INFO  - WORKER OUTPUT: Complete processing C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862
+2020-08-12 17:55:32,469 INFO  - WORKER OUTPUT: Revit Worker Exiting
+2020-08-12 17:55:35,115 INFO  - WORKER OUTPUT: Time : 36 Seconds
+2020-08-12 17:55:35,115 INFO  - WORKER OUTPUT: CSharp rvt translate finished.
+2020-08-12 17:55:35,193 INFO  - WORKER OUTPUT: Python rvt worker finished.
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: >> TASK END: rvt2md 0:00:47.657132
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: >> TASK START: ConnectLinkIdTask 2020-08-12 17:55:35.193475
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: ConnectLinkIdTask only run in integrateDrawings mode
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: >> TASK END: ConnectLinkIdTask 0:00:00
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: >> TASK START: proto2db 2020-08-12 17:55:35.193475
+2020-08-12 17:55:35,209 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\proto2db\bin/proto2db.exe --input "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\property" --output "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\property"
+2020-08-12 17:55:35,224 INFO  - WORKER OUTPUT: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\property/modeldrive.db
+2020-08-12 17:55:35,318 INFO  - WORKER OUTPUT: Done
+2020-08-12 17:55:35,318 INFO  - WORKER OUTPUT: >> TASK END: proto2db 0:00:00.125017
+2020-08-12 17:55:35,318 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:35,318 INFO  - WORKER OUTPUT: >> TASK START: elementClassifySingle 2020-08-12 17:55:35.318492
+2020-08-12 17:55:35,318 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\regularize\bin/ElementClassifySingle.exe --input "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\property/modeldrive.db" --output "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\metadata/elements_class.json"
+2020-08-12 17:55:35,365 INFO  - WORKER OUTPUT: Loading database...C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\property/modeldrive.db
+2020-08-12 17:55:35,599 INFO  - WORKER OUTPUT: Classify...
+2020-08-12 17:55:35,880 INFO  - WORKER OUTPUT: >> TASK END: elementClassifySingle 0:00:00.562503
+2020-08-12 17:55:35,896 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:35,896 INFO  - WORKER OUTPUT: >> TASK START: thumbnail 2020-08-12 17:55:35.880995
+2020-08-12 17:55:35,896 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap\bin\MiniMap.exe --model C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/model/ --output C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail/ --config C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap\bin\thumbnail-512.json
+2020-08-12 17:55:36,959 INFO  - WORKER OUTPUT: For test.
+2020-08-12 17:55:36,959 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap\imagetool\ImageTool.exe --model resize --filepath1 C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail/512.png --filepath2 C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail\256.png --w 256 --h 256
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT: src image address: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail/512.png
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT: save image address: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail\256.png
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT: height: 256
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT: width: 256
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT: quality: -1
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT:  the file is a jpg/bmp/png .
+2020-08-12 17:55:36,974 INFO  - WORKER OUTPUT: Input image is valid.
+2020-08-12 17:55:36,990 INFO  - WORKER OUTPUT: retValue : 1
+2020-08-12 17:55:36,990 INFO  - WORKER OUTPUT: >> TASK END: thumbnail 0:00:01.109431
+2020-08-12 17:55:36,990 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:36,990 INFO  - WORKER OUTPUT: >> TASK START: resizeImage96 2020-08-12 17:55:36.990426
+2020-08-12 17:55:36,990 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap\imagetool\ImageTool.exe --model resize --filepath1 C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail/512.png --filepath2 C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail\96.png --w 96 --h 96
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT: src image address: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail/512.png
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT: save image address: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\thumbnail\96.png
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT: height: 96
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT: width: 96
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT: quality: -1
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT:  the file is a jpg/bmp/png .
+2020-08-12 17:55:37,006 INFO  - WORKER OUTPUT: Input image is valid.
+2020-08-12 17:55:37,021 INFO  - WORKER OUTPUT: retValue : 1
+2020-08-12 17:55:37,021 INFO  - WORKER OUTPUT: >> TASK END: resizeImage96 0:00:00.031252
+2020-08-12 17:55:37,021 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:37,021 INFO  - WORKER OUTPUT: >> TASK START: levelmap 2020-08-12 17:55:37.021678
+2020-08-12 17:55:37,021 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap\bin\MiniMap.exe --model C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/model/ --output C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/model/maps/ --config C:\Job\worker\rvt-translate\20200812-4c8bf6\minimap\bin\setting.json
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: >> TASK END: levelmap 0:00:02.187531
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: >> TASK START: md2viz3 2020-08-12 17:55:39.224827
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: converting databag to bmd
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: Python Md2Viz3Task start.
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: loadOnDemand False
+2020-08-12 17:55:39,224 INFO  - WORKER OUTPUT: C:\Job\worker\rvt-translate\20200812-4c8bf6\md2viz\bin3/MPK2BMD.exe --output "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/" --config "C:\Job\worker\rvt-translate\20200812-4c8bf6\md2viz\bin3/config.json" --input "C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/model/" --rebuildMesh true --meshSimplify false --mpkBatched false --texturePkg 7 --visibilityByVoxel true --bmpkMerged true
+2020-08-12 17:55:39,240 INFO  - WORKER OUTPUT: HELLO GLODON MODEL DRIVE!
+2020-08-12 17:55:39,240 INFO  - WORKER OUTPUT: Attach C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/model/
+2020-08-12 17:55:39,240 INFO  - WORKER OUTPUT: load materials
+2020-08-12 17:55:39,240 INFO  - WORKER OUTPUT: load symbol
+2020-08-12 17:55:39,256 INFO  - WORKER OUTPUT: load index
+2020-08-12 17:55:39,256 INFO  - WORKER OUTPUT: load child scenes: 0
+2020-08-12 17:55:39,256 INFO  - WORKER OUTPUT: 
+2020-08-12 17:55:39,256 INFO  - WORKER OUTPUT: load main scene: 1
+2020-08-12 17:55:39,256 INFO  - WORKER OUTPUT: f59e14129a8dd342eee5a606342dc862
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: Load MPK index
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: 
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: -----------BMD----------- 
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: Start write BMD files: 
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: Phase 0: phase_prepare_scaleToMeter Skip
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: Phase 1: Phase_data_userdata
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT:     Write user data: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/userdata\userdata.gz
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT:     Write user ID: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/scene\user_id.gz
+2020-08-12 17:55:39,302 INFO  - WORKER OUTPUT: Phase 2: Phase_data_material
+2020-08-12 17:55:39,318 INFO  - WORKER OUTPUT:     Write material: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/material\material.gz
+2020-08-12 17:55:39,318 INFO  - WORKER OUTPUT: Phase 3: Phase_data_line
+2020-08-12 17:55:39,318 INFO  - WORKER OUTPUT: Phase 4: phase_prepare_voxelVisibility Skip
+2020-08-12 17:55:39,318 INFO  - WORKER OUTPUT: Phase 5: phase_prepare_primitive
+2020-08-12 17:55:39,506 INFO  - WORKER OUTPUT:     Warning: ParseMeshPackage() skip mesh count: 0
+2020-08-12 17:55:39,506 INFO  - WORKER OUTPUT: Phase 6: phase_prepare_duplicateVertex
+2020-08-12 17:55:39,521 INFO  - WORKER OUTPUT:     Deleted vertex count: 912
+2020-08-12 17:55:39,521 INFO  - WORKER OUTPUT: Phase 7: phase_prepare_updateMatrix
+2020-08-12 17:55:39,537 INFO  - WORKER OUTPUT: Phase 8: Phase_data_mpk
+2020-08-12 17:55:39,537 INFO  - WORKER OUTPUT:     Write mpk: 
+2020-08-12 17:55:39,537 INFO  - WORKER OUTPUT:         mpk_type_0 id: 0
+2020-08-12 17:55:39,568 INFO  - WORKER OUTPUT:         mpk_type_1 id: 00
+2020-08-12 17:55:39,584 INFO  - WORKER OUTPUT:         mpk_type_2 id: 11
+2020-08-12 17:55:39,584 INFO  - WORKER OUTPUT: Phase 9: Phase_data_outline
+2020-08-12 17:55:39,646 INFO  - WORKER OUTPUT:     Write outline_mpk: 001
+2020-08-12 17:55:39,693 INFO  - WORKER OUTPUT:     Write outline: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/outline\outline_0.gz
+2020-08-12 17:55:39,724 INFO  - WORKER OUTPUT:     Write outline: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/outline\outline_1.gz
+2020-08-12 17:55:39,724 INFO  - WORKER OUTPUT: Phase 10: Phase_data_bmpk
+2020-08-12 17:55:39,724 INFO  - WORKER OUTPUT:     Write bmpk: 
+2020-08-12 17:55:39,740 INFO  - WORKER OUTPUT:         bmpk_type_0 id: 0
+2020-08-12 17:55:39,756 INFO  - WORKER OUTPUT:         bmpk_type_1 id: 00
+2020-08-12 17:55:39,771 INFO  - WORKER OUTPUT:         bmpk_type_2 id: 01
+2020-08-12 17:55:39,771 INFO  - WORKER OUTPUT:     Write bmpk index: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/bmpk\index.gz
+2020-08-12 17:55:39,771 INFO  - WORKER OUTPUT: Phase 11: Phase_data_mesh_index
+2020-08-12 17:55:39,771 INFO  - WORKER OUTPUT:     Create mesh index: 0
+2020-08-12 17:55:39,771 INFO  - WORKER OUTPUT: Phase 12: Phase_data_symbol
+2020-08-12 17:55:39,787 INFO  - WORKER OUTPUT:     Write symbols: 130
+2020-08-12 17:55:39,787 INFO  - WORKER OUTPUT: Phase 13: Phase_data_scene
+2020-08-12 17:55:39,787 INFO  - WORKER OUTPUT:     Write scenes: 
+2020-08-12 17:55:39,787 INFO  - WORKER OUTPUT:     Write user_data index: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/scene\userdata_index.gz
+2020-08-12 17:55:39,787 INFO  - WORKER OUTPUT:     octree_o_count: 0
+2020-08-12 17:55:39,787 INFO  - WORKER OUTPUT:     octree_i_count: 543
+2020-08-12 17:55:39,802 INFO  - WORKER OUTPUT: Phase 14:Phase_data_matedata
+2020-08-12 17:55:39,802 INFO  - WORKER OUTPUT:     Write metadata: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/config.json
+2020-08-12 17:55:39,802 INFO  - WORKER OUTPUT:     Write Scene Statistics: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\resource/v3/model/sceneStatistics.json
+2020-08-12 17:55:39,802 INFO  - WORKER OUTPUT: Done
+2020-08-12 17:55:39,802 INFO  - WORKER OUTPUT: -----------BMD----------- 
+2020-08-12 17:55:39,818 INFO  - WORKER OUTPUT: model size: 725679 bytes
+2020-08-12 17:55:39,818 INFO  - WORKER OUTPUT: Python Md2Viz3Task finished.
+2020-08-12 17:55:39,818 INFO  - WORKER OUTPUT: >> TASK END: md2viz3 0:00:00.593774
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: >> TASK START: dwg2mdv 2020-08-12 17:55:39.818601
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: CustomConfig do not export drawing.
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: >> TASK END: dwg2mdv 0:00:00
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: >> TASK START: dwg2pdf 2020-08-12 17:55:39.818601
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: CustomConfig do not export drawing.
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: >> TASK END: dwg2pdf 0:00:00
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: >> TASK START: litelocalpack 2020-08-12 17:55:39.818601
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: Skip the localpack step
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: >> TASK END: litelocalpack 0:00:00
+2020-08-12 17:55:39,834 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: >> TASK START: elementsTree 2020-08-12 17:55:39.818601
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: Sorting specialties and floors.
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\data/tree.json
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: >> TASK END: elementsTree 0:00:00.031237
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: ___________________________________________
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: >> TASK START: manifest 2020-08-12 17:55:39.849838
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: C:\Job\wd\1652228669273120\f59e14129a8dd342eee5a606342dc862\manifest.json
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: >> TASK END: manifest 0:00:00
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: save config to version.json
+2020-08-12 17:55:39,849 INFO  - WORKER OUTPUT: Worker finished with code 0
+2020-08-12 17:55:39,912 INFO  - Notice sended, jobId = 1652228669273120, status = upload, code = null, message = null, usage = null
