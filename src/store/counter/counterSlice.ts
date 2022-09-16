@@ -29,5 +29,4 @@ export const { increment, decrement, incrementByAmount } = counterSlice.actions
 
 // Other code such as selectors can use the imported `RootState` type
 export const selectCount = (state: RootState) => state.counter.value
-export const gg = counterSlice;
 export default counterSlice.reducer

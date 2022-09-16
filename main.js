@@ -36,7 +36,7 @@ function createWindow() {
             responseHeaders: details.responseHeaders,
             statusLine:"1"
         })
-        console.log(details);
+        // console.log(details);
     });
     // const fileter2 =  {urls: ['file:///*/models/*']};
     // session.defaultSession.webRequest.onHeadersReceived(fileter2, (details,callback) => {

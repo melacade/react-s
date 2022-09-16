@@ -1,4 +1,4 @@
-import {CSSProperties} from "react";
+import {CSSProperties, useEffect} from "react";
 
 export default function ThreeD() {
     let viewer: { addModel: (arg0: any) => void; resize: (arg0: number, arg1: number) => void; };
@@ -30,13 +30,22 @@ export default function ThreeD() {
     let onSDKLoadFailed=(error: any)=>{
         console.log("Failed to load SDK!",error);
     };
+    const testInterval = () => {
+        console.log(window.location);
+    };
+    useEffect(() => {
+        let id = setInterval(testInterval, 1000);
+        return () => clearInterval(id);
+    });
     // @ts-ignore
     BimfaceSDKLoader.load(loaderConfig,onSDKLoadSucceeded,onSDKLoadFailed);
     const style : CSSProperties ={
         width: window.innerWidth,
         height: window.innerHeight,
-
     }
+
+
+
     return(
         <div>
             <div id="3dView" style={style}></div>
