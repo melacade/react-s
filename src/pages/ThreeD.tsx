@@ -1,4 +1,5 @@
-import {CSSProperties, useEffect} from "react";
+import {CSSProperties} from "react";
+import {WebSocketMelody} from "../io/websocket/websocket";
 
 export default function ThreeD() {
     let viewer: { addModel: (arg0: any) => void; resize: (arg0: number, arg1: number) => void; };
@@ -8,6 +9,14 @@ export default function ThreeD() {
     loaderConfig.dataEnvType = BimfaceEnvOption.Local;
     loaderConfig.sdkPath = './jssdk';
     loaderConfig.path = './models/viewToken.json';
+    // @ts-ignore
+    let ws = new WebSocketMelody(window.testReact.websocketUrl);
+    ws.init();
+    const send = ()=>{ws.sendMessage({
+        event: "good",
+        data:"ddd"
+    });}
+
     let onSDKLoadSucceeded = (viewMetaData:any)=>{
         let view = document.getElementById('3dView')
         // @ts-ignore
@@ -30,13 +39,6 @@ export default function ThreeD() {
     let onSDKLoadFailed=(error: any)=>{
         console.log("Failed to load SDK!",error);
     };
-    const testInterval = () => {
-        console.log(window.location);
-    };
-    useEffect(() => {
-        let id = setInterval(testInterval, 1000);
-        return () => clearInterval(id);
-    });
     // @ts-ignore
     BimfaceSDKLoader.load(loaderConfig,onSDKLoadSucceeded,onSDKLoadFailed);
     const style : CSSProperties ={
@@ -48,6 +50,7 @@ export default function ThreeD() {
 
     return(
         <div>
+            <button onClick={send}>发送</button>
             <div id="3dView" style={style}></div>
         </div>
     )
